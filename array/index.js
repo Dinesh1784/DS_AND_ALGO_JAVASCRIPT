@@ -12,7 +12,7 @@ const strings = ["a", "b", "c", "d"];
 //insert O(n)
 //delete O(n)
 
-console.log(strings[2]); //O(1)
+//console.log(strings[2]); //O(1)
 
 //PUSH
 strings.push("e"); //O(1) but can be O(n)
@@ -36,4 +36,5 @@ console.log(strings);
 //splice
 // its used to add item in middle of the array
 strings.splice(2, 0, "alien"); //O(n)
+//splice(index, deleteIndex,value to be placed at the position)
 console.log(strings);
